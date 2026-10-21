@@ -41,7 +41,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: ente/build-win64-mxe
-          ref: bacfe327b4b1cbb447e615bf7155802957c82039
+          ref: c6437d675e52bfafb7c31660cabfadc9516bc2c0
       - name: Build standalone CLI
         run: ./build-cli.sh ${{ matrix.arch }}
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
